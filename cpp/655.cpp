@@ -26,7 +26,7 @@ void printVector(const vector <vector <string>> &v) {
         }
         vector<string> w = *i;
         for (auto j = w.begin(); j != w.end(); ++j) {
-            if (j != w.begin()) {cout << ", ";}
+            if (j != w.begin()) cout << ", ";
             cout << *j;
         }
         cout << "]";
@@ -44,7 +44,7 @@ int middleIndex(int lo, int hi) {
 
 
 int getTreeHeight(TreeNode* root) {
-    if (!root) {return 0;}
+    if (!root) return 0;
     if (!root->left && !root->right) {
         return 1;
     } else {
@@ -133,4 +133,5 @@ int main() {
     test1();
     test2();
     test3();
+    return 0;
 }
