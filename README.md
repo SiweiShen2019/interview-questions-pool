@@ -4,7 +4,7 @@
 ### C++ Makefile
 My source codes and C++ Makefile are put in [`cpp/`](cpp). cpp files are named after their number in [LeetCode](https://leetcode.com/). You can modify and use my [Makefile ](cpp/Makefile) and run cpp files like python.
 
-Here's some examples:
+Say that you write some codes for question 123:
 
 - Compile `123.cpp` into an executable file `123`(Unix-based System):
     ```
@@ -31,6 +31,8 @@ By default:
 
 |Questions|C++|Python|Go|Notes|
 |--|--|--|--|--|
+|[404. Sum of Left Leaves](https://leetcode.com/problems/sum-of-left-leaves/description/)|[404.cpp](cpp/404.cpp)|||[]()|
+|[566. Reshape the Matrix](https://leetcode.com/problems/reshape-the-matrix/description/)|[566.cpp](cpp/566.coo)|||[566](notes/566.md)|
 |[655. Print Binary Tree](https://leetcode.com/problems/print-binary-tree/description/)|[655.cpp](cpp/655.cpp)|||[655](notes/655.md)|
 
 

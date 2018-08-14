@@ -4,6 +4,8 @@
 #include <string>
 #include <vector>
 
+#include "print.cpp"
+
 using namespace std;
 
 
@@ -13,29 +15,6 @@ struct TreeNode {
     TreeNode *right;
     TreeNode(int x) : val(x), left(NULL), right(NULL) {}
 };
-
-
-// print a vector of vector of strings like python
-void printVector(const vector <vector <string>> &v) {
-    cout << "[";
-    for (auto i = v.begin(); i != v.end(); ++i) {
-        if (i == v.begin()) {
-            cout << "[";
-        } else {
-            cout << " [";
-        }
-        vector<string> w = *i;
-        for (auto j = w.begin(); j != w.end(); ++j) {
-            if (j != w.begin()) cout << ", ";
-            cout << *j;
-        }
-        cout << "]";
-        if ((i+1) != v.end()) {
-            cout << "," << endl;
-        }
-    }
-    cout << "]" << endl;
-}
 
 
 int middleIndex(int lo, int hi) {
@@ -56,7 +35,7 @@ int getTreeHeight(TreeNode* root) {
 
 
 // fill an intialized vector based on root TreeNode
-void fillVector(TreeNode* root, vector <vector <string>> &v,
+void fillVector(TreeNode* root, vector<vector<string>> &v,
                 int level, int lo, int hi) {
     if (!root) return;
     int mid = middleIndex(lo, hi);
@@ -87,7 +66,7 @@ void testPrint() {
         vector<string> tmp (5, "");
         ret.push_back(tmp);
     }
-    printVector(ret);
+    printVOV(ret);
 }
 
 
@@ -96,7 +75,7 @@ void test1() {
     TreeNode t2 = TreeNode(2);
     t1.left = &t2;
     vector<vector <string>> res = printTree(&t1);
-    printVector(res);
+    printVOV(res);
 }
 
 
@@ -109,7 +88,7 @@ void test2() {
     t1.right = &t3;
     t2.right = &t4;
     vector<vector <string>> res = printTree(&t1);
-    printVector(res);
+    printVOV(res);
 }
 
 
@@ -124,7 +103,7 @@ void test3() {
     t2.left = &t3;
     t3.left = &t4;
     vector<vector <string>> res = printTree(&t1);
-    printVector(res);
+    printVOV(res);
 }
 
 
