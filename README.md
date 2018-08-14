@@ -20,6 +20,31 @@ Say that you write some codes for question 123:
     make clean
     ```
 
+### C++ Libs
+In order to leverage the process of debugging, I write [`print.cpp`](cpp/print.cpp) to print vectors like I used to do in python. However, it's just a very tough implementation, so only `int` and `string` are supported to be elements in a vector.
+
+Examples:
+
+- Print a vector:
+    ```cpp
+    vector<int> v{1,2,3};
+    printVector(v);
+    ```
+    ```
+    [1,2,3]
+    ```
+
+- Print a vector of vectors of ints:
+    ```cpp
+    vector<vector<int>> v{{1,2}, {3,4}, {5,6}};
+    printVOV(v);
+    ```
+    ```
+    [[1, 2],
+     [3, 4],
+     [5, 6]]
+    ```
+
 ## Index
 By default:
 - "Notes" use C++ codes to explain my thoughts.
@@ -32,7 +57,7 @@ By default:
 |Questions|C++|Python|Go|Notes|
 |--|--|--|--|--|
 |[404. Sum of Left Leaves](https://leetcode.com/problems/sum-of-left-leaves/description/)|[404.cpp](cpp/404.cpp)|||[]()|
-|[566. Reshape the Matrix](https://leetcode.com/problems/reshape-the-matrix/description/)|[566.cpp](cpp/566.coo)|||[566](notes/566.md)|
+|[566. Reshape the Matrix](https://leetcode.com/problems/reshape-the-matrix/description/)|[566.cpp](cpp/566.cpp)|||[566](notes/566.md)|
 |[655. Print Binary Tree](https://leetcode.com/problems/print-binary-tree/description/)|[655.cpp](cpp/655.cpp)|||[655](notes/655.md)|
 
 
