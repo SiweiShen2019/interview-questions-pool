@@ -9,7 +9,7 @@ ifeq ($(no), )
 else
 	@make -s $(no).o
 	@$(CXX) $(CXXFLAGS) $(no).o print.o -o $(no)
-	@rm $(no).o print.o
+	@rm $(no).o  # no need to remove print.o locally
 endif
 
 # Compile .o file
