@@ -56,6 +56,7 @@ By default:
 
 |Questions|C++|Python|Go|Notes|
 |--|--|--|--|--|
+|[138. Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/)|[138.cpp](cpp/138.cpp)||||
 |[253. Meeting Rooms II](https://leetcode.com/problems/meeting-rooms-ii/)|[253.cpp](cpp/253.cpp)||||
 |[17. Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/)|[17.cpp](cpp/17.cpp)||||
 |[283. Move Zeroes](https://leetcode.com/problems/move-zeroes/)|[283.cpp](cpp/283.cpp)|||[283](notes/283.md)|
