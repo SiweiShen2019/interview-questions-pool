@@ -1,8 +1,8 @@
-# leetcode-solutions
+# Interview Questions Pool
 
 ## Tools
 ### C++ Makefile
-My source codes and C++ Makefile are put in [`cpp/`](cpp). cpp files are named after their number in [LeetCode](https://leetcode.com/). You can modify and use my [Makefile ](cpp/Makefile) and run cpp files like python.
+My source codes and C++ Makefile are put in [`cpp/`](cpp). cpp files are named after their number in [LeetCode](https://leetcode.com/). You can modify and use my [Makefile](cpp/Makefile) and run cpp files like python.
 
 Say that you write some codes for question 123:
 
@@ -53,7 +53,7 @@ By default:
     - It's a good place to learn the grammar of other languages.
     - I may add other languages later on.
 
-
+### LeetCode
 |Questions|C++|Python|Go|Notes|
 |--|--|--|--|--|
 |[138. Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/)|[138.cpp](cpp/138.cpp)||||
@@ -65,6 +65,11 @@ By default:
 |[566. Reshape the Matrix](https://leetcode.com/problems/reshape-the-matrix/)|[566.cpp](cpp/566.cpp)||[566.go](go/566.go)|[566](notes/566.md)|
 |[404. Sum of Left Leaves](https://leetcode.com/problems/sum-of-left-leaves/)|[404.cpp](cpp/404.cpp)|||[]()|
 |[655. Print Binary Tree](https://leetcode.com/problems/print-binary-tree/)|[655.cpp](cpp/655.cpp)|||[655](notes/655.md)|
+
+### Cracking the Coding Interview
+|Questions|C++|Notes|
+|--|--|--|
+|[5.1 Insertion (LintCode 179)](https://www.lintcode.com/problem/update-bits/)|[cc51.cpp](cpp/cc51.cpp)||
 
 
 ## Reference
