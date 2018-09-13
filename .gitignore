@@ -33,3 +33,6 @@
 
 # vscode
 .vscode/
+
+# Catch2
+cpp/catch.hpp

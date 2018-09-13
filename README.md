@@ -21,7 +21,7 @@ Say that you write some codes for question 123:
     ```
 
 ### C++ Libs
-In order to leverage the process of debugging, I write [`print.cpp`](cpp/print.cpp) to print vectors like I used to do in python. However, it's just a very tough implementation, so only `int` and `string` are supported to be elements in a vector.
+In order to leverage the process of debugging, I write [`print.cpp`](cpp/print.cpp) to print vectors like I used to do in python. However, it's just a very rough implementation, so only `int` and `string` are supported to be elements in a vector.
 
 Examples:
 
@@ -45,6 +45,9 @@ Examples:
      [5, 6]]
     ```
 
+## Catch2
+[A modern, C++-native, header-only, test framework for unit-tests, TDD and BDD - using C++11, C++14, C++17 and later (or C++03 on the Catch1.x branch)](https://github.com/catchorg/Catch2)
+
 ## Index
 By default:
 - "Notes" use C++ codes to explain my thoughts.
@@ -56,6 +59,7 @@ By default:
 ### LeetCode
 |Questions|C++|Python|Go|Notes|
 |--|--|--|--|--|
+|[78. Subsets](https://leetcode.com/problems/subsets/)|[78.cpp](cpp/78.cpp)||||
 |[451. Sort Characters By Frequency](https://leetcode.com/problems/sort-characters-by-frequency/)|[451.cpp](cpp/451.cpp)|||[451](notes/451.md)|
 |[138. Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/)|[138.cpp](cpp/138.cpp)||||
 |[253. Meeting Rooms II](https://leetcode.com/problems/meeting-rooms-ii/)|[253.cpp](cpp/253.cpp)||||
