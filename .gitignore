@@ -36,3 +36,6 @@
 
 # Catch2
 cpp/catch.hpp
+
+# Java
+*.class
