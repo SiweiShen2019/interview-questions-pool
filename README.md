@@ -1,5 +1,6 @@
 # Interview Questions Pool
 
+
 ## Tools
 ### C++ Makefile
 My source codes and C++ Makefile are put in [`cpp/`](cpp). cpp files are named after their number in [LeetCode](https://leetcode.com/). You can modify and use my [Makefile](cpp/Makefile) and run cpp files like python.
@@ -19,6 +20,7 @@ Say that you write some codes for question 123:
     ```
     make clean
     ```
+
 
 ### C++ Libs
 In order to leverage the process of debugging, I write [`print.cpp`](cpp/print.cpp) to print vectors like I used to do in python. However, it's just a very rough implementation, so only `int` and `string` are supported to be elements in a vector.
@@ -45,31 +47,26 @@ Examples:
      [5, 6]]
     ```
 
+
 ## Catch2
 [A modern, C++-native, header-only, test framework for unit-tests, TDD and BDD - using C++11, C++14, C++17 and later (or C++03 on the Catch1.x branch)](https://github.com/catchorg/Catch2)
+
 
 ## Index
 By default:
 - "Notes" use C++ codes to explain my thoughts.
-- Python and Go codes are implemented following C++ codes. However,
+- Python, Java, and Go codes are implemented following C++ codes. However,
     - If a question is difficult, I may write a Python script first.
     - It's a good place to learn the grammar of other languages.
     - I may add other languages later on.
 
+
 ### LeetCode
-|Questions|C++|Python|Go|Notes|
-|--|--|--|--|--|
-|[78. Subsets](https://leetcode.com/problems/subsets/)|[78.cpp](cpp/78.cpp)||||
-|[451. Sort Characters By Frequency](https://leetcode.com/problems/sort-characters-by-frequency/)|[451.cpp](cpp/451.cpp)|||[451](notes/451.md)|
-|[138. Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/)|[138.cpp](cpp/138.cpp)||||
-|[253. Meeting Rooms II](https://leetcode.com/problems/meeting-rooms-ii/)|[253.cpp](cpp/253.cpp)||||
-|[17. Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/)|[17.cpp](cpp/17.cpp)||||
-|[283. Move Zeroes](https://leetcode.com/problems/move-zeroes/)|[283.cpp](cpp/283.cpp)|||[283](notes/283.md)|
-|[399. Evaluate Division](https://leetcode.com/problems/evaluate-division/)|[399.cpp](cpp/399.cpp)||||
-|[113. Path Sum II](https://leetcode.com/problems/path-sum-ii/)|[113.cpp](cpp/113.cpp)|||[113](notes/113.md)|
-|[566. Reshape the Matrix](https://leetcode.com/problems/reshape-the-matrix/)|[566.cpp](cpp/566.cpp)||[566.go](go/566.go)|[566](notes/566.md)|
-|[404. Sum of Left Leaves](https://leetcode.com/problems/sum-of-left-leaves/)|[404.cpp](cpp/404.cpp)|||[]()|
-|[655. Print Binary Tree](https://leetcode.com/problems/print-binary-tree/)|[655.cpp](cpp/655.cpp)|||[655](notes/655.md)|
+#### Array
+|Questions|C++|Java|Python|Go|Notes|
+|--|--|--|--|--|--|
+|[26. Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)|[26.cpp](cpp/26.cpp)|[lc26.java](java/lc26.java)|||Two pointers|
+
 
 ### Cracking the Coding Interview
 |Questions|C++|Notes|
@@ -79,4 +76,4 @@ By default:
 
 ## Reference
 [Jason Turner's C++ Coding Standards](https://gist.github.com/lefticus/10191322)  
-[Google C++ Style Guide](https://google.github.io/styleguide/cppguide.html)  
+[Google C++ Style Guide](https://google.github.io/styleguide/cppguide.html)
