@@ -66,12 +66,7 @@ By default:
 |Questions|C++|Java|Python|Go|Notes|
 |--|--|--|--|--|--|
 |[26. Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)|[26.cpp](cpp/26.cpp)|[lc26.java](java/lc26.java)|||Two pointers|
-
-
-### Cracking the Coding Interview
-|Questions|C++|Notes|
-|--|--|--|
-|[5.1 Insertion (LintCode 179)](https://www.lintcode.com/problem/update-bits/)|[cc51.cpp](cpp/cc51.cpp)||
+|[*80. Remove Duplicates from Sorted Array II](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/)|[80.cpp](cpp/80.cpp)|Same as cpp|||One pointer. [Best Solution](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/discuss/27976/3-6-easy-lines-C%2B%2B-Java-Python-Ruby)|
 
 
 ## Reference
