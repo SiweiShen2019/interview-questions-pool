@@ -1,5 +1,17 @@
 # Interview Questions Pool
 
+## Index
+
+
+### LeetCode
+#### Array
+|Questions|C++|Java|Python|Go|Notes|
+|--|--|--|--|--|--|
+|[26. Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)|[26.cpp](cpp/26.cpp)|[lc26.java](java/lc26.java)|||Two pointers|
+|[41. First Missing Positive](https://leetcode.com/problems/first-missing-positive/)|[41.cpp](cpp/41.cpp)||||Array as one-to-one map (Hint 1)|
+|[*80. Remove Duplicates from Sorted Array II](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/)|[80.cpp](cpp/80.cpp)||||One pointer. [Best Solution](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/discuss/27976/3-6-easy-lines-C%2B%2B-Java-Python-Ruby)|
+|[189. Rotate Array](https://leetcode.com/problems/rotate-array/)|[189.cpp](cpp/189.cpp)||||`reverse` 3 times|
+
 
 ## Tools
 ### C++ Makefile
@@ -50,24 +62,6 @@ Examples:
 
 ## Catch2
 [A modern, C++-native, header-only, test framework for unit-tests, TDD and BDD - using C++11, C++14, C++17 and later (or C++03 on the Catch1.x branch)](https://github.com/catchorg/Catch2)
-
-
-## Index
-By default:
-- "Notes" use C++ codes to explain my thoughts.
-- Python, Java, and Go codes are implemented following C++ codes. However,
-    - If a question is difficult, I may write a Python script first.
-    - It's a good place to learn the grammar of other languages.
-    - I may add other languages later on.
-
-
-### LeetCode
-#### Array
-|Questions|C++|Java|Python|Go|Notes|
-|--|--|--|--|--|--|
-|[26. Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)|[26.cpp](cpp/26.cpp)|[lc26.java](java/lc26.java)|||Two pointers|
-|[41. First Missing Positive](https://leetcode.com/problems/first-missing-positive/)|[41.cpp](cpp/41.cpp)||||Array as one-to-one map (Hint 1)|
-|[*80. Remove Duplicates from Sorted Array II](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/)|[80.cpp](cpp/80.cpp)||||One pointer. [Best Solution](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/discuss/27976/3-6-easy-lines-C%2B%2B-Java-Python-Ruby)|
 
 
 ## Reference
