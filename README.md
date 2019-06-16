@@ -18,58 +18,9 @@
 |Questions|C++|Java|Python|Go|Notes|
 |--|--|--|--|--|--|
 |[2. Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)|[2.cpp](cpp/2.cpp)||||carry; dummy node|
-
-
-## Tools
-### C++ Makefile
-My source codes and C++ Makefile are put in [`cpp/`](cpp). cpp files are named after their number in [LeetCode](https://leetcode.com/). You can modify and use my [Makefile](cpp/Makefile) and run cpp files like python.
-
-Say that you write some codes for question 123:
-
-- Compile `123.cpp` into an executable file `123`(Unix-based System):
-    ```
-    make no=123
-    ./123
-    ```
-- [**Pythonic**] Compile and run `123.cpp` (the executable file will be removed after being executed):
-    ```
-    make run no=123
-    ```
-- Clean `.o` files:
-    ```
-    make clean
-    ```
-
-
-### C++ Libs
-In order to leverage the process of debugging, I write [`print.cpp`](cpp/print.cpp) to print vectors like I used to do in python. However, it's just a very rough implementation, so only `int` and `string` are supported to be elements in a vector.
-
-Examples:
-
-- Print a vector:
-    ```cpp
-    vector<int> v{1,2,3};
-    printVector(v);
-    ```
-    ```
-    [1,2,3]
-    ```
-
-- Print a vector of vectors of ints:
-    ```cpp
-    vector<vector<int>> v{{1,2}, {3,4}, {5,6}};
-    printVOV(v);
-    ```
-    ```
-    [[1, 2],
-     [3, 4],
-     [5, 6]]
-    ```
-
-
-## Catch2
-[A modern, C++-native, header-only, test framework for unit-tests, TDD and BDD - using C++11, C++14, C++17 and later (or C++03 on the Catch1.x branch)](https://github.com/catchorg/Catch2)
-
+|[*82. Remove Duplicates from Sorted List II](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/)|[82.cpp](cpp/82.cpp)||||dummy node; 2 pointers|
+|[83. Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/)|[83.cpp](cpp/83.cpp)||||optional `delete`|
+|[86. Partition List](https://leetcode.com/problems/partition-list/)|[86.cpp](cpp/86.cpp)||||2 LinkedList and 2 dummy nodes|
 
 ## Reference
 [Jason Turner's C++ Coding Standards](https://gist.github.com/lefticus/10191322)  
