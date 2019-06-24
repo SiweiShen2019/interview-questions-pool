@@ -20,8 +20,9 @@
 |--|--|--|--|--|--|
 |[2. Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)|[2.cpp](cpp/2.cpp)||||carry; dummy node|
 |[*82. Remove Duplicates from Sorted List II](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/)|[82.cpp](cpp/82.cpp)||||dummy node; 2 pointers|
-|[83. Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/)|[83.cpp](cpp/83.cpp)||||optional `delete`|
+|[83. Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/)|[83.cpp](cpp/83.cpp)||||(optional `delete`)|
 |[86. Partition List](https://leetcode.com/problems/partition-list/)|[86.cpp](cpp/86.cpp)||||2 LinkedList and 2 dummy nodes|
+|[92. Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii/)|[92.cpp](cpp/92.cpp)||||4 key position + 206|
 |[206. Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)|[206.cpp](cpp/206.cpp)||||bend the linked list; insert at the beginning|
 
 ## Reference
